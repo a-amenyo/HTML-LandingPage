@@ -1,0 +1,51 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: poppins, sans-serif;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+
+#header{
+    padding: 30px;
+    width: 100%;
+    background:white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#header #logo{
+    font-style: italic;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+} 
+#p{
+    color: blue;
+}
+navigator{
+    color: blue;
+    font-size: x-large;
+    align-content: center;
+}
+
+navigator a{
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+
+
+navigator a:hover{
+    opacity: 1;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+}
